@@ -1,0 +1,25 @@
+/* Style de base pour le conteneur du jeu */
+.game-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Style de la grille de jeu */
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(10, 20px); /* 10 colonnes de 20 pixels chacune */
+    grid-template-rows: repeat(20, 20px); /* 20 lignes de 20 pixels chacune */
+    border: 1px solid #000;
+}
+
+/* Style des cellules de la grille de jeu */
+.game-board .cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Style pour afficher le score */
+.score {
+    margin-top: 10px;
+}
